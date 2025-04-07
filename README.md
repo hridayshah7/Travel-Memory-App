@@ -15,7 +15,6 @@ A simple and beautiful React Native app to store and display your favorite trave
 ### Memory Screen - After Like
 ![Liked Memory Screen](./src/assets/liked.png)
 
-
 ---
 
 ## 🔧 Features
@@ -58,11 +57,7 @@ npm install
 ### Step 1: Start Metro Server
 
 ```bash
-# Using npm
-npm start
-
-# OR using Yarn
-yarn start
+npx react-native start
 ```
 
 ### Step 2: Build & Run the App
@@ -70,9 +65,7 @@ yarn start
 #### ▶️ Android
 
 ```bash
-npm run android
-# OR
-yarn android
+npx react-native run-android
 ```
 
 #### 🍏 iOS (macOS only)
@@ -87,9 +80,7 @@ bundle exec pod install
 Then:
 
 ```bash
-npm run ios
-# OR
-yarn ios
+npx react-native run-ios
 ```
 
 Alternatively, you can use Android Studio or Xcode.
@@ -135,7 +126,10 @@ ExploriaApp/
 ├── src/
 │   ├── assets/
 │   │   ├── Eiffel_tower.png
-│   │   └── Eiffel.png
+│   │   ├── Eiffel.png
+│   │   ├── VS-Code.png
+│   │   ├── image.png
+│   │   └── liked.png
 │   └── screens/
 │       ├── TravelMemory.tsx
 │       └── TravelMemoryScreen.tsx
@@ -154,4 +148,3 @@ ExploriaApp/
 ## 📄 License
 
 This project is open-source and free to use.
-
