@@ -1,9 +1,8 @@
 # OSX
-#
 .DS_Store
+__MACOSX
 
 # Xcode
-#
 build/
 *.pbxuser
 !default.pbxuser
@@ -23,7 +22,6 @@ DerivedData
 **/.xcode.env.local
 
 # Android/IntelliJ
-#
 build/
 .idea
 .gradle
@@ -35,19 +33,20 @@ local.properties
 !debug.keystore
 .kotlin/
 
+# iOS
+ios/Pods/
+ios/build/
+
 # node.js
-#
 node_modules/
 npm-debug.log
 yarn-error.log
+logs
+*.log
+*.tgz
+.pnpm-debug.log*
 
 # fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/
-
 **/fastlane/report.xml
 **/fastlane/Preview.html
 **/fastlane/screenshots
@@ -58,13 +57,56 @@ yarn-error.log
 
 # Ruby / CocoaPods
 **/Pods/
-/vendor/bundle/
+vendor/bundle/
 
-# Temporary files created by Metro to check the health of the file watcher
+# Metro & cache
+.expo/
+.expo-shared/
+.expo-cache/
+.cache/
 .metro-health-check*
 
-# testing
-/coverage
+# VSCode settings
+.vscode/
+
+# Testing
+coverage/
+.nyc_output
+*.lcov
+report.*
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Dependency & build systems
+bower_components/
+jspm_packages/
+web_modules/
+build/Release
+dist/
+.next
+out
+.nuxt
+.vuepress/dist
+.temp
+.docusaurus
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.parcel-cache
+.pnp.*
+.npm
+.npmrc
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint/Stylelint
+.eslintcache
+.stylelintcache
 
 # Yarn
 .yarn/*
@@ -73,32 +115,19 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
 
-
-# Node modules
-node_modules/
-
-# Android
-android/.gradle/
-android/app/build/
-*.iml
-
-# iOS
-ios/Pods/
-ios/build/
-
-# Misc
-*.log
-*.env
+# Environment
+.env
 .env.*
-__MACOSX
-.DS_Store
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
-# VSCode settings
-.vscode/
-
-# Metro & cache
-.expo/
-.expo-shared/
-.expo-cache/
-.cache/
+# REPL history
+.node_repl_history
