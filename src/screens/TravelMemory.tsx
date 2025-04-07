@@ -10,7 +10,6 @@ import {
   Dimensions,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
-
 import LinearGradient from 'react-native-linear-gradient';
 
 
@@ -58,7 +57,7 @@ const TravelMemory = () => {
 
 
 
-            {/* Memory Card */}
+            {/* Memory Card */} 
             <View style={styles.card}>
             <View style={styles.cardBody}>
                 <View style={styles.locationRow}>
