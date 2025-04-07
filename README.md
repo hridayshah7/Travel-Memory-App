@@ -6,14 +6,15 @@ A simple and beautiful React Native app to store and display your favorite trave
 
 ## 📱 Screenshots
 
-### Visual Studio Code
-![Memory Screen - Before Like](./assets/VS-Code.png)
+### VS Code Debug View
+![VS Code Debug View](./src/assets/VS-Code.png)
 
-### Memory Screen (Before Like)
-![Memory Screen - Before Like](./assets/image.png)
+### Memory Screen - Initial
+![Memory Screen - Initial](./src/assets/image.png)
 
-### Memory Screen (After Like)
-![Memory Screen - After Like](./assets/liked.png)
+### Memory Screen - After Like
+![Liked Memory Screen](./src/assets/liked.png)
+
 
 ---
 
